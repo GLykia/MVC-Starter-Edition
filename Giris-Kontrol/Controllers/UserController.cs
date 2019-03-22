@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Giris_Kontrol.Models;
+using System.Threading;
 
 namespace Giris_Kontrol.Controllers
 {
@@ -13,7 +14,7 @@ namespace Giris_Kontrol.Controllers
 
         static UserController()
         {
-            Kullanicilar = new List<Models.User>
+            Kullanicilar = new List<User>
             {
                 new Models.User
                 {
@@ -50,6 +51,13 @@ namespace Giris_Kontrol.Controllers
         public ActionResult List()
         {
             return PartialView(User);
+        }
+
+        public void Delete (Guid userID)
+        {
+            Thread.Sleep(2000);
+            var user = Kullanicilar.Single(z => z.ID == userID);
+            Kullanicilar.Remove(user);
         }
     }
 }
