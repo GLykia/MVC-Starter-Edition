@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Alert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="~/Javascript/Alert"></script>
+<h2>Alert</h2>
+
+<button id="bt">Mesaj</button>
+
+<script>
+    $(document).ready(function () {
+        $("#bt").click(function () {
+            $.getScript("Javascript/Alert");
+        })
+    })
+</script>
+
