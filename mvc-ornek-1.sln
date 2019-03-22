@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc-ornek-1", "mvc-ornek-1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc-controller-1", "mvc-controller-1\mvc-controller-1.csproj", "{7B865723-0CCF-44DD-B2F8-74FCB6C57D71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Giris-Kontrol", "Giris-Kontrol\Giris-Kontrol.csproj", "{809DD921-1965-40A5-B1B2-586EE4B9B2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7B865723-0CCF-44DD-B2F8-74FCB6C57D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B865723-0CCF-44DD-B2F8-74FCB6C57D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B865723-0CCF-44DD-B2F8-74FCB6C57D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809DD921-1965-40A5-B1B2-586EE4B9B2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809DD921-1965-40A5-B1B2-586EE4B9B2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809DD921-1965-40A5-B1B2-586EE4B9B2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809DD921-1965-40A5-B1B2-586EE4B9B2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
